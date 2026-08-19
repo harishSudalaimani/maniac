@@ -1,0 +1,9 @@
+[package]
+name = "maniac-topology"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+maniac-core = { path = "../maniac-core" }
+serde.workspace = true

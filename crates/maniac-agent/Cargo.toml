@@ -1,0 +1,14 @@
+[package]
+name = "maniac-agent"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+maniac-docker = { path = "../maniac-docker" }
+maniac-ecs = { path = "../maniac-ecs" }
+maniac-linux = { path = "../maniac-linux" }
+maniac-protocol = { path = "../maniac-protocol" }
+

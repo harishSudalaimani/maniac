@@ -1,0 +1,12 @@
+[package]
+name = "maniac-otel"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+maniac-core = { path = "../maniac-core" }
+serde.workspace = true
+serde_json.workspace = true
+

@@ -1,0 +1,16 @@
+[package]
+name = "maniac-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+maniac-linux = { path = "../maniac-linux" }
+maniac-docker = { path = "../maniac-docker" }
+maniac-ecs = { path = "../maniac-ecs" }
+maniac-topology = { path = "../maniac-topology" }
+maniac-otel = { path = "../maniac-otel" }
+serde_json.workspace = true
+tracing-subscriber.workspace = true
