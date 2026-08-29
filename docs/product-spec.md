@@ -72,6 +72,7 @@ The first version should be an excellent live infrastructure investigation tool.
 
 ⸻
 
+
 3. Architecture
 
 Use a collector + central server architecture.
