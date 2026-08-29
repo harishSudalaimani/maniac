@@ -27,7 +27,7 @@ jobs:
             "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
             "$MIRROR_DIR/repo.git"
 
-          echo "Pushing to GitLab: https://git.harish8.com/harish/harish8.com.git"
+          echo "Pushing to GitLab: https://git.harish8.com/harish/maniac.git"
 
           git -C "$MIRROR_DIR/repo.git" push --mirror \
             "https://oauth2:${GITLAB_TOKEN}@git.harish8.com/harish/maniac.git"
